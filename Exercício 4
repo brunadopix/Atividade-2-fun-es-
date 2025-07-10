@@ -1,0 +1,2 @@
+c = float(input("Temperatura em °C: "))
+print(f"Em °F: {(9 * c) / 5 + 32}")
