@@ -1,0 +1,11 @@
+#Pergunta ao usuário os dados necessários
+dias_aluguel = int(input("Quantos dias o carro foi alugado? "))
+km_percorridos = float(input("Quantos quilômetros foram percorridos? "))
+
+#Calcula o valor total
+valor_dias = dias_aluguel * 60
+valor_km = km_percorridos * 0.15
+total_a_pagar = valor_dias + valor_km
+
+#Exibe o resultado
+print(f"O valor total a pagar é: R$ {total_a_pagar:.2f}")
