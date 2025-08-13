@@ -1,2 +1,15 @@
-c = float(input("Temperatura em °C: "))
-print(f"Em °F: {(9 * c) / 5 + 32}")
+def celsius_para_fahrenheit(celsius):
+    Converte temperatura de Celsius para Fahrenheit
+    return (9 * celsius) / 5 + 32
+
+def main():
+    # Entrada de dados
+    c = float(input("Temperatura em °C: "))
+    
+    # Conversão e saída
+    fahrenheit = celsius_para_fahrenheit(c)
+    print(f"Em °F: {fahrenheit}")
+
+# Chamada da função principal
+if __name__ == "__main__":
+    main()
